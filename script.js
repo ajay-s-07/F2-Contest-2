@@ -1,4 +1,3 @@
-
 let arr=[];
  let d=document.querySelector('.t');
 let a=document.querySelector(".issue");
@@ -28,8 +27,10 @@ let date=new Date().toLocaleString();
    td1.innerHTML=id;
    td4.innerHTML=date;
    td5.appendChild(st);
-   td5.innerHTML+=' <a onclick="fun2('+id+')""><span class="material-icons md-36">edit_square</span></a>';
   
+   td5.innerHTML+=' <a onclick="fun2('+id+')""><span class="material-icons md-36">edit_square</span></a>';
+  // console.log(a);
+  // td5.innerHTML+=a; 
   if(!name=="" && !to=="")
    tbl.append(tr);
  name="";
